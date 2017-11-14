@@ -1,0 +1,25 @@
+
+
+#jane_headshot {
+    width:100px;
+    height:100px;
+}
+
+.header-link {
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #000000;
+	font-size: 50px;
+}
+
+#sections{
+    text-align: right;
+    color: #000000;
+    font-size: 30px;
+}
+
+#landing-description{
+    margin-left: 15px;
+    font-size:20px;
+}
