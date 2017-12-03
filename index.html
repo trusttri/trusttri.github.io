@@ -6,8 +6,8 @@
         <title> Jane Im </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="stylesheet/base.css" rel="stylesheet">
 
     </head>
@@ -16,38 +16,54 @@
     <body>
         <!-- Selectors -->
         <div class="container fluid header-link">
-            <div class="row">
+            <div class="row" id="owner_name">
                 <a href="https://trusttri.github.io">Jane Im</a>
-
             </div>
 
         </div>
 
         <div class="container fluid header-link">
             <div class="row">
-
-                <div id="sections">
+                <div class="col">
+                    <div id="sections">
 
                         <a href="about_jane.html">About me</a>
                         -
                         <a href="papers/final_cv_1201-Jane_Im.pdf">CV</a>
+
                         <!-- - -->
                         <!--<a href="thoughts_of_accessibility.html">Thoughts about accessibility</a>-->
 
+                    </div>
                 </div>
+
             </div>
+
 
         </div>
 
+
+         <div class="container fluid header-link">
+            <div class="row">
+                <div class="col" id="contact">
+                    contact info : <a href="mailto:alwaysjane15@gmail.com">alwaysjane15@gmail.com</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <br>
+
         <!--  photo and introduction -->
 
-        <div class="container fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-xs-6 col-sm-5 col-md-4 col-lg-3">
+                <div class="col-md-3">
 		        		<img src="images/jane_headshot.jpeg"  class="img-responsive center-block"  width=260 height=260>
                 </div>
 
-                <div class="landing-description">
+                <div class="landing-description col-md-8">
                     <p>
                         I aspire to build systems that improve online collaboration and online discourse on a large scale mainly by resolving conflicts between different perspectives.
                     </p>
@@ -77,7 +93,7 @@
             <div class="row">
                 <div class="col-lg-6 portfolio-item">
                   <div class="card h-100">
-                    <a href="about_rfc_wikum.html"><img class="card-img-top" alt=""></a>
+                    <a href="about_rfc_wikum.html"><img class="card-img-top" ></a>
                     <div class="card-body">
                       <h4 class="card-title project-title">
                         <a href="about_rfc_wikum.html">Content dispute resolution on Wikipedia and Wikum</a>
@@ -90,7 +106,7 @@
 
                         <p> Through this project I became sure I wanted to delve into research within the area of social computing.</p>
 
-                        <p>[<a href="about_rfc_wikum.html"> read more </a>]
+                        <!--<p>[<a href="about_rfc_wikum.html"> read more </a>]-->
                         </p>
                     </div>
                   </div>
@@ -124,7 +140,7 @@
              <div class="row">
                 <div class="col-lg-6 portfolio-item">
                   <div class="card h-100">
-                    <a href="about_soft_robotics.html"><img class="card-img-top"  alt=""></a>
+                    <a href="about_soft_robotics.html"><img src="images/soft_robotics.jpg"  width=260 height=260></a>
                     <div class="card-body">
                       <h4 class="project-title">
                         <!--<a href="about_soft_robotics.html">3D Printing Assisted Fabrication of Soft Robotic Hand with Embedded Soft Electronic Circuits</a>-->

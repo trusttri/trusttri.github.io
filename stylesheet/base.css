@@ -9,10 +9,15 @@ h4.project-title {
     color: #355ab7;
 }
 
+#owner_name{
+    text-align: right;
+}
+
+
 .header-link {
 	text-align: right;
-	margin-top: 20px;
-	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	color: #000000;
 	font-size: 50px;
 }
@@ -24,7 +29,7 @@ h4.project-title {
 }
 
 .landing-description{
-    margin-left: 15px;
+    margin-left: 25px;
     font-size:20px;
 }
 
@@ -51,3 +56,8 @@ body {
   margin-bottom: 30px;
 }
 
+
+#contact{
+    font-size:20px;
+    color: #355ab7;
+}
