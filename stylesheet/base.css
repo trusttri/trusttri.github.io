@@ -10,16 +10,17 @@ h4.project-title {
 }
 
 #owner_name{
-    text-align: right;
+    text-align: left;
+    font-size: 35px;
 }
 
 
 .header-link {
 	text-align: right;
-	margin-top: 15px;
+
 	margin-bottom: 15px;
 	color: #000000;
-	font-size: 50px;
+
 }
 
 #sections{
