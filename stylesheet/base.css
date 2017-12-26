@@ -1,3 +1,6 @@
+img {
+    width: 100%;
+}
 
 .page table#edu-table td{
     padding-left: 0px;
@@ -39,7 +42,6 @@ h4.project-title {
 }
 
 .landing-description{
-    margin-left: 25px;
     font-size:20px;
 }
 
