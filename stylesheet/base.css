@@ -1,6 +1,4 @@
-img {
-    width: 100%;
-}
+
 
 .page table#edu-table td{
     padding-left: 0px;
@@ -13,8 +11,9 @@ img {
 }
 
 #jane_headshot {
-    width:100px;
+    width:100%;
     height:100px;
+
 }
 
 h4.project-title {
@@ -69,7 +68,7 @@ body {
 }
 
 
-#contact{
+.other_info{
     font-size:18px;
     color: #355ab7;
 }
