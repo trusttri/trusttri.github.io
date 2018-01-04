@@ -37,8 +37,8 @@
                         <a href="about_jane.html">About me</a>
                         -
                         <a href="papers/CV___Jane_Im_12_14.pdf">CV</a>
-                        -
-                        <a href="Awards/Publications">Awards/Publications</a>
+                        <!-- - -->
+                        <!--<a href="Awards/Publications">Awards/Publications</a>-->
 
                         <!-- - -->
                         <!--<a href="thoughts_of_accessibility.html">Thoughts about accessibility</a>-->
@@ -102,6 +102,53 @@
 
         <br>
 
+        <div class="container fluid">
+            <div class="row">
+                <div class="col">
+                    <div id="buttons">
+                        <button onclick="show_all_projects()">All</button>
+                        <button onclick="show_publications()">Publications</button>
+                        <button onclick="show_awards()">Awards</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+
+            function show_all_projects(){
+               projects = document.getElementsByClassName("col-lg-6 portfolio-item");
+               for (var i=0; i<projects.length; i++){
+                    console.log(i); projects[i].style.display = 'block';
+               }
+            }
+
+            function hide_all_projects(){
+               projects = document.getElementsByClassName("col-lg-6 portfolio-item");
+               for (var i=0; i<projects.length; i++){
+                    console.log(i); projects[i].style.display = 'none';
+               }
+            }
+
+
+            function show_publications(){
+               hide_all_projects();
+               projects = document.getElementsByClassName("publication");
+               for (var i=0; i<projects.length; i++){
+                    console.log(i); projects[i].style.display = 'block';
+               }
+            }
+
+            function show_awards(){
+               hide_all_projects();
+               projects = document.getElementsByClassName("award");
+               for (var i=0; i<projects.length; i++){
+                    console.log(i); projects[i].style.display = 'block';
+               }
+            }
+        </script>
+
+        <br>
 
         <!-- Portfolio -->
         <div class="container fluid">
@@ -161,7 +208,7 @@
 
 
              <div class="row">
-                <div class="col-lg-6 portfolio-item">
+                <div class="col-lg-6 portfolio-item award">
                   <div class="card h-100">
                     <!--<a href="about_soft_robotics.html"><img src="images/3d_printing.png" class="card-img-top" ></a>-->
                   <img src="images/3d_printing.png" class="card-img-top" >
@@ -180,30 +227,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 portfolio-item">
-                  <div class="card h-100">
-                    <!--<a href="about_big_data_competition.html"><img src="images/bigdata.png" class="card-img-top" alt=""></a>-->
-                    <img src="images/appinventor_vr.png" class="card-img-top" alt="">
-                    <div class="card-body">
-                      <h4 class="project-title">
-                        <!--<a href="about_big_data_competition.html">Designing business plan for camping industry using big data</a>-->
-                          Embedding VR blocks into MIT App Inventor - short paper accepted
-                      </h4>
-                        <p class="card-text"></p>
-                        <p>I programmed a JavaScript API for embedding VR blocks into MIT App Inventor using libraries including
-                            <a href="https://threejs.org">three.js</a> and <a href="http://chandlerprall.github.io/Physijs/">Physijs</a>.
-                        <br><br>
-                            I got a paper on this work accepted to CTE 2017.</p>
-                        <p>[<a href="papers/App Inventor VR Editor for Computational Thinking.pdf"> accepted short paper </a>]
-                            - [<a href="https://docs.google.com/presentation/d/1BiRsbQc4KYbD9b05Ax-iwXJoJj_A_tvsYjOmvNmxSfg/edit?usp=sharing"> slides </a>] </p>
-                    </div>
-                  </div>
-                </div>
-            </div>
 
-
-            <div class="row">
-                <div class="col-lg-6 portfolio-item">
+                 <div class="col-lg-6 portfolio-item award">
                   <div class="card h-100">
                     <!--<a href="about_big_data_competition.html"><img src="images/bigdata.png" class="card-img-top" alt=""></a>-->
                     <img src="images/bigdata.png" class="card-img-top" alt="">
@@ -223,8 +248,29 @@
                   </div>
 
                 </div>
+            </div>
 
 
+            <div class="row">
+                <div class="col-lg-6 portfolio-item publication">
+                  <div class="card h-100">
+                    <!--<a href="about_big_data_competition.html"><img src="images/bigdata.png" class="card-img-top" alt=""></a>-->
+                    <img src="images/appinventor_vr.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h4 class="project-title">
+                        <!--<a href="about_big_data_competition.html">Designing business plan for camping industry using big data</a>-->
+                          Embedding VR blocks into MIT App Inventor - short paper accepted
+                      </h4>
+                        <p class="card-text"></p>
+                        <p>I programmed a JavaScript API for embedding VR blocks into MIT App Inventor using libraries including
+                            <a href="https://threejs.org">three.js</a> and <a href="http://chandlerprall.github.io/Physijs/">Physijs</a>.
+                        <br><br>
+                            I got a paper on this work accepted to CTE 2017.</p>
+                        <p>[<a href="papers/App Inventor VR Editor for Computational Thinking.pdf"> accepted short paper </a>]
+                            - [<a href="https://docs.google.com/presentation/d/1BiRsbQc4KYbD9b05Ax-iwXJoJj_A_tvsYjOmvNmxSfg/edit?usp=sharing"> slides </a>] </p>
+                    </div>
+                  </div>
+                </div>
             </div>
 
 
