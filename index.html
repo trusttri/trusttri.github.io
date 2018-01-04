@@ -78,10 +78,9 @@
                 </div>
 
                 <div class="landing-description col-xs-12 col-sm-7 col-md-7 col-lg-8">
-                   <strong> More will be updated soon!</strong>
-                    <br>
+                   <!--<strong> More will be updated soon!</strong>-->
+                    <!--<br>-->
                     <p>
-                        <br>
                         I aspire to build systems that improve online collaboration and online discourse on a large scale mainly by resolving conflicts between different perspectives.
                     </p>
                     <p>
@@ -91,20 +90,7 @@
                     <p>
                         I am currently applying for graduate schools with a focus on <strong>Human-Computer Interaction (HCI)</strong>.
                     </p>
-                    <!--<p>-->
-                         <!--Below are some projects that I have worked on.-->
-                    <!--</p>-->
 
-
-                </div>
-            </div>
-        </div>
-
-        <br>
-
-        <div class="container fluid">
-            <div class="row">
-                <div class="col">
                     <div id="buttons">
                         Below are my main projects.
                         <button class="project-display" onclick="show_all_projects()">All</button>
@@ -115,45 +101,7 @@
                 </div>
             </div>
         </div>
-
-        <script>
-
-            function show_all_projects(){
-               projects = document.getElementsByClassName("col-lg-6 portfolio-item");
-               for (var i=0; i<projects.length; i++){
-                    console.log(i); projects[i].style.display = 'block';
-               }
-            }
-
-            function hide_all_projects(){
-               projects = document.getElementsByClassName("col-lg-6 portfolio-item");
-               for (var i=0; i<projects.length; i++){
-                    console.log(i); projects[i].style.display = 'none';
-               }
-            }
-
-
-            function show_publications(){
-                show_only("publication")
-            }
-
-            function show_awards(){
-                show_only("award")
-            }
-
-            function show_current(){
-               show_only("current")
-            }
-
-            function show_only(keyword){
-                 hide_all_projects();
-                  projects = document.getElementsByClassName(keyword);
-                  for (var i=0; i<projects.length; i++){
-                    console.log(i); projects[i].style.display = 'block';
-                  }
-            }
-        </script>
-
+        <br>
         <br>
 
         <!-- Portfolio -->
@@ -291,3 +239,41 @@
         </div>
     </body>
 </html>
+
+<script>
+
+            function show_all_projects(){
+               projects = document.getElementsByClassName("col-lg-6 portfolio-item");
+               for (var i=0; i<projects.length; i++){
+                    console.log(i); projects[i].style.display = 'block';
+               }
+            }
+
+            function hide_all_projects(){
+               projects = document.getElementsByClassName("col-lg-6 portfolio-item");
+               for (var i=0; i<projects.length; i++){
+                    console.log(i); projects[i].style.display = 'none';
+               }
+            }
+
+
+            function show_publications(){
+                show_only("publication")
+            }
+
+            function show_awards(){
+                show_only("award")
+            }
+
+            function show_current(){
+               show_only("current")
+            }
+
+            function show_only(keyword){
+                 hide_all_projects();
+                  projects = document.getElementsByClassName(keyword);
+                  for (var i=0; i<projects.length; i++){
+                    console.log(i); projects[i].style.display = 'block';
+                  }
+            }
+        </script>
