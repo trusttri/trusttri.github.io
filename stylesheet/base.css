@@ -1,4 +1,9 @@
 
+#buttons{
+    font-size: 19px;
+}
+
+
 .project-display{
     border: none;
     outline: none;
@@ -10,6 +15,11 @@
     background: #007bff52;
     border-radius: 7px;
 
+}
+
+.project-display:hover {
+    color: white;
+    cursor:pointer;
 }
 
 .page table#edu-table td{
