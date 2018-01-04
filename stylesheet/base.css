@@ -10,6 +10,7 @@
 
 
 .project-display{
+    margin-left: 5px;
     border: none;
     outline: none;
     padding: 5px 16px;
@@ -23,6 +24,11 @@
 }
 
 .project-display:hover {
+    color: white;
+    cursor:pointer;
+}
+
+.project-display:focus {
     color: white;
     cursor:pointer;
 }

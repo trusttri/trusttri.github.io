@@ -108,6 +108,7 @@
                     <div id="buttons">
                         Below are my main projects.
                         <button class="project-display" onclick="show_all_projects()">All</button>
+                        <button class="project-display" onclick="show_current()">Current</button>
                         <button class="project-display" onclick="show_publications()">Publications</button>
                         <button class="project-display" onclick="show_awards()">Awards</button>
                     </div>
@@ -133,19 +134,23 @@
 
 
             function show_publications(){
-               hide_all_projects();
-               projects = document.getElementsByClassName("publication");
-               for (var i=0; i<projects.length; i++){
-                    console.log(i); projects[i].style.display = 'block';
-               }
+                show_only("publication")
             }
 
             function show_awards(){
-               hide_all_projects();
-               projects = document.getElementsByClassName("award");
-               for (var i=0; i<projects.length; i++){
+                show_only("award")
+            }
+
+            function show_current(){
+               show_only("current")
+            }
+
+            function show_only(keyword){
+                 hide_all_projects();
+                  projects = document.getElementsByClassName(keyword);
+                  for (var i=0; i<projects.length; i++){
                     console.log(i); projects[i].style.display = 'block';
-               }
+                  }
             }
         </script>
 
@@ -154,7 +159,7 @@
         <!-- Portfolio -->
         <div class="container fluid">
             <div class="row">
-                <div class="col-lg-6 portfolio-item">
+                <div class="col-lg-6 portfolio-item current">
                   <div class="card h-100">
                     <!--<a href="about_rfc_wikum.html"><img src="images/rfc.png" class="card-img-top" ></a>-->
                       <img src="images/rfc.png" class="card-img-top" >
