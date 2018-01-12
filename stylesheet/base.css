@@ -43,6 +43,7 @@
 .project-display:focus {
     color: white;
     cursor:pointer;
+    background: #0037ff52;
 }
 
 .page table#edu-table td{
