@@ -1,3 +1,9 @@
+
+body {
+    font-weight: 300;
+    font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;
+}
+
 img {
 	margin-bottom: 15px;
 }
@@ -9,10 +15,14 @@ img {
 
 }
 
-#protest-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto}
+.project-img {
+    width:200px;
+    height:180px;
+}
+
+.project-title {
+    color: #355ab7;
+}
 
 #buttons{
     font-size: 19px;
@@ -97,7 +107,7 @@ h4.project-title {
 }
 
 .landing-description{
-    font-size:19px;
+    font-size:18px;
 }
 
 .project-description{
