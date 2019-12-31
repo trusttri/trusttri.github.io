@@ -151,3 +151,7 @@ body {
 #updates {
     font-size: 15px;
 }
+
+.blog-img {
+    width: 30%;
+}
