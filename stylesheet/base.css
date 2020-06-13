@@ -8,6 +8,11 @@ img {
 	margin-bottom: 15px;
 }
 
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .outer{
 
     margin-left: 150px;
@@ -149,9 +154,21 @@ body {
 }
 
 #updates {
+    margin-top: 15px;
     font-size: 14px;
+}
+
+#updates .list-group-item {
+    padding: 8px;
 }
 
 .blog-img {
     width: 30%;
+}
+
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
 }
