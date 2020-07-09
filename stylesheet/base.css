@@ -166,6 +166,9 @@ body {
     width: 30%;
 }
 
+.video {
+    margin-top: 15px;
+}
 
 @media (min-width: 1200px){
     .container {
