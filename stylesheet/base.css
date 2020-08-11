@@ -170,6 +170,12 @@ body {
     margin-top: 15px;
 }
 
+.award {
+    background: #007eff;
+    color: white;
+    padding: 2px;
+}
+
 @media (min-width: 1200px){
     .container {
         max-width: 1200px;
