@@ -116,6 +116,9 @@ h4.project-title {
     font-size:18px;
 }
 
+.card-block {
+    font-size: 15px;
+}
 .project-description{
     margin-top: 11px;
     font-size: 15px;
