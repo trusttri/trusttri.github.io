@@ -14,10 +14,8 @@ img {
 }
 
 .outer{
-
     margin-left: 150px;
     margin-right: 150px;}
-
 }
 
 .project-img {
@@ -117,11 +115,11 @@ h4.project-title {
 }
 
 .card-block {
-    font-size: 15px;
+    font-size: 16px;
 }
 .project-description{
     margin-top: 11px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 body {
@@ -157,7 +155,7 @@ body {
 
 #updates {
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 14.5px;
 }
 
 #updates .list-group-item {
