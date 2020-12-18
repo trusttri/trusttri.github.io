@@ -176,10 +176,6 @@ body {
 }
 
 @media only screen and (max-width: 800px){
-    .container {
-        max-width: 1200px;
-    }
-
     #owner_name {
         text-align: center;
     }
@@ -206,9 +202,7 @@ body {
 }
 
 
-
 @media only screen and (max-width: 400px){
-    
     #sections{
         font-size: 13px;
     }
