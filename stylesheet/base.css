@@ -80,12 +80,6 @@ img {
     padding: 12px 20px;
 }
 
-#jane_headshot {
-    width:85%;
-    
-
-}
-
 h4.project-title {
     color: #355ab7;
 }
@@ -124,12 +118,6 @@ h4.project-title {
 
 body {
   padding-top: 54px;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
 }
 
 .portfolio-item {
@@ -181,8 +169,38 @@ body {
     margin-bottom: 5px;
 }
 
-@media (min-width: 1200px){
+@media only screen and (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+@media only screen and (max-width: 600px){
     .container {
         max-width: 1200px;
+    }
+
+    #owner_name {
+        text-align: center;
+    }
+
+    #headshot {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #landing-description {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #personal-links {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #sections{
+        font-size: 18px;
+        text-align: center;
     }
 }
