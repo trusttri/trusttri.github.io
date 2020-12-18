@@ -199,11 +199,23 @@ body {
         font-size: 18px;
         text-align: center;
     }
+
+    .project-row {
+        margin: 0px 15px 15px 15px;
+    }
+
+    .project-category {
+        margin: 0px 20px 0px 20px;
+    }
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     #sections{
         font-size: 13px;
+    }
+
+    .video {
+        display: none;
     }
 }
