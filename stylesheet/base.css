@@ -13,26 +13,16 @@ img {
     padding-right: 10px;
 }
 
-.outer{
-    margin-left: 150px;
-    margin-right: 150px;}
-}
-
-.project-img {
-    width:200px;
-    height:180px;
-}
-
 .project-title {
     font-weight: 300;
     color: #355ab7;
 }
 
-#buttons{
+#buttons {
     font-size: 19px;
 }
 
-.current-tag{
+.current-tag {
     margin-left: 5px;
     padding: 2px 10px;
     text-align: center;
@@ -45,7 +35,7 @@ img {
 }
 
 
-.project-display{
+.project-display {
     margin-left: 5px;
     border: none;
     outline: none;
@@ -74,9 +64,9 @@ img {
     padding-left: 0px;
     padding-right: 20px;
 }
+
 .section-container {
     box-shadow: 0 2px 6px 0 rgba(22, 142, 228, 0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    /* border-radius: 10px; */
     padding: 12px 20px;
 }
 
@@ -84,52 +74,53 @@ h4.project-title {
     color: #355ab7;
 }
 
-#owner_name{
+#owner_name {
     text-align: left;
     font-size: 29px;
 }
 
-
 .header-link {
 	text-align: right;
-
 	margin-bottom: 15px;
 	color: #000000;
-
 }
 
-#sections{
+#sections {
     text-align: right;
     color: #000000;
     font-size: 25px;
 }
 
-.landing-description{
-    font-size:18px;
+.landing-description {
+    font-size: 17px;
+}
+
+#personal-links {
+    font-size: 15px;
 }
 
 .card-block {
     font-size: 16px;
 }
-.project-description{
+
+.project-description {
     margin-top: 11px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 body {
-  padding-top: 54px;
+    padding-top: 54px;
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .pagination {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-
-.other_info{
+.other_info {
     color: #355ab7;
 }
 
@@ -137,7 +128,7 @@ body {
     text-align:left;
 }
 
-#sign{
+#sign {
     text-align: center;
 }
 
@@ -170,9 +161,9 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+    body {
+        padding-top: 56px;
+    }
 }
 
 @media only screen and (max-width: 800px){
@@ -195,7 +186,7 @@ body {
         margin-bottom: 10px;
     }
 
-    #sections{
+    #sections {
         font-size: 18px;
         text-align: center;
     }
@@ -208,14 +199,22 @@ body {
         margin: 0px 20px 0px 20px;
     }
 
-    .landing-description{
+    .landing-description {
         margin: 20px 20px 0px 20px;
+    }
+
+    #personal-links {
+        margin-top: 12px;
+    }
+
+    .video {
+        display: none;
     }
 }
 
 
 @media only screen and (max-width: 500px){
-    #sections{
+    #sections {
         font-size: 13px;
     }
 
