@@ -2,7 +2,10 @@
     "addons": {
       "{a3c7b458-85bb-4653-bd7b-80d54282c95f}": {
         "updates": [
-
+            {
+              "version": "1.0.7",
+                "update_link": "https://fbstudy.si.umich.edu/firefox-extension/privacy_settings_study_extension.xpi"
+            }
         ]
       }
     }
