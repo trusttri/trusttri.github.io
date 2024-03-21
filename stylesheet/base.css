@@ -19,7 +19,7 @@ img {
 
 .project-title {
     font-weight: 300;
-    color: #355ab7;
+    color: black;
 }
 
 #buttons {
@@ -75,7 +75,7 @@ img {
 }
 
 h4.project-title {
-    color: #355ab7;
+    color: black;
 }
 
 #owner_name {
@@ -154,9 +154,9 @@ body {
 }
 
 .award {
-    background: #007eff;
-    color: white;
+    color: #007bff;
     padding: 2px;
+    font-weight: bold;
 }
 
 .courses {
