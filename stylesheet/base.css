@@ -103,6 +103,11 @@ h4.project-title {
     font-size: 15px;
 }
 
+#travels {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
 .card-block {
     font-size: 15px;
 }
@@ -186,7 +191,12 @@ body {
 
     #personal-links {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+    }
+
+    #travels {
+        text-align: center;
+        margin-bottom: 5px;
     }
 
     #sections {
