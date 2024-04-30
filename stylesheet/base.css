@@ -32,12 +32,15 @@ img {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     color: #000000;
     border-radius: 7px;
     border: 5px solid #007bff9e;
 }
 
+.project-row {
+    font-size: 15px;
+}
 
 .project-display {
     margin-left: 5px;
@@ -47,7 +50,7 @@ img {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     background: #007bff52;
     border-radius: 7px;
 
@@ -96,24 +99,24 @@ h4.project-title {
 }
 
 .landing-description {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #personal-links {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #travels {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .card-block {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .project-description {
@@ -204,7 +207,7 @@ body {
     }
 
     #sections {
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
     }
 
