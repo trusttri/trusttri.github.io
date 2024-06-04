@@ -175,6 +175,11 @@ body {
     margin-bottom: 6px;
 }
 
+.major-update {
+    font-weight: 400;
+    /*color: #f01455;*/
+}
+
 @media only screen and (min-width: 992px) {
     body {
         padding-top: 56px;
