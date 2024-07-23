@@ -104,6 +104,7 @@ h4.project-title {
 
 #personal-links {
     font-size: 14px;
+    margin-top: 5px;
 }
 
 #travels {
@@ -180,6 +181,10 @@ body {
     /*color: #f01455;*/
 }
 
+#photo-credit {
+    font-size: 12px;
+}
+
 @media only screen and (min-width: 992px) {
     body {
         padding-top: 56px;
@@ -204,6 +209,11 @@ body {
     #personal-links {
         text-align: center;
         margin-bottom: 5px;
+    }
+
+    #photo-credit {
+        text-align: center;
+        font-size: 11px;
     }
 
     #travels {
