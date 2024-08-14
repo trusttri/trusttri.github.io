@@ -104,6 +104,7 @@ h4.project-title {
 
 #personal-links {
     font-size: 14px;
+    margin-top: 5px;
 }
 
 #travels {
@@ -180,6 +181,11 @@ body {
     /*color: #f01455;*/
 }
 
+#photo-credit {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (min-width: 992px) {
     body {
         padding-top: 56px;
@@ -194,6 +200,7 @@ body {
     #headshot {
         display: block;
         margin: 0 auto;
+        margin-bottom: 5px;
     }
 
     #landing-description {
@@ -204,6 +211,13 @@ body {
     #personal-links {
         text-align: center;
         margin-bottom: 5px;
+    }
+
+    #photo-credit {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     #travels {
