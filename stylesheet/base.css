@@ -1,7 +1,8 @@
 
 body {
     font-weight: 300;
-    font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;
+    /*font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;*/
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", "Gill Sans", "Gill Sans MT", Helvetica, sans-serif;
 }
 
 img {
@@ -103,11 +104,21 @@ h4.project-title {
 }
 
 #personal-links {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 5px;
 }
 
-#travels {
+#research-openings {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#teaching {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#misc {
     margin-top: 20px;
     font-size: 14px;
 }
@@ -172,18 +183,19 @@ body {
 }
 
 .courses {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 6px;
-}
-
-.major-update {
-    font-weight: 500;
-    /*color: #f01455;*/
 }
 
 #photo-credit {
     font-size: 10px;
     margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1240px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
