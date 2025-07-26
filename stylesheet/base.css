@@ -10,6 +10,18 @@ img {
 	margin-bottom: 15px;
 }
 
+a {
+    color: #e4035c;
+}
+
+a:hover {
+    color: #f70075;
+}
+
+b{
+    font-weight: 500;
+}
+
 .update {
     font-size: 65%;
 }
@@ -186,11 +198,6 @@ body {
 
 .video {
     margin-top: 15px;
-}
-
-.award {
-    color: #007bff;
-    font-weight: 500;
 }
 
 .courses {
