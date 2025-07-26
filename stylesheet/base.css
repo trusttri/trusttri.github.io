@@ -11,7 +11,8 @@ img {
 }
 
 a {
-    color: #e4035c;
+    font-weight: 500;
+    color: black;
 }
 
 a:hover {
@@ -122,22 +123,22 @@ h4.project-title {
 }
 
 #research-openings {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 14px;
 }
 
 #teaching {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 14px;
 }
 
 #misc {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 14px;
 }
 
 #awards-honors {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 14px;
 }
 
