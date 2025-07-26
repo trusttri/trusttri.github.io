@@ -1,8 +1,9 @@
 
 body {
-    font-weight: 300;
     /*font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;*/
     font-family: "Avenir Next", Avenir, "Helvetica Neue", "Gill Sans", "Gill Sans MT", Helvetica, sans-serif;
+    font-feature-settings: "kern";
+    font-kerning: normal;
 }
 
 img {
