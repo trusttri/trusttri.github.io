@@ -142,6 +142,11 @@ h4.project-title {
     font-size: 13px;
 }
 
+#photo-blurb {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .card-block {
     font-size: 14px;
 }
