@@ -307,4 +307,8 @@ body {
     .video {
         display: none;
     }
+
+    #risc-logo {
+        width: 50%;
+    }
 }
